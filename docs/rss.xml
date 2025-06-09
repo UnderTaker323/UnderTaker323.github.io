@@ -1,5 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>存一些没用的东西</title><link>https://UnderTaker323.github.io</link><description>感觉有点用的东西</description><copyright>存一些没用的东西</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/162246850?v=4</url><title>avatar</title><link>https://UnderTaker323.github.io</link></image><lastBuildDate>Mon, 09 Jun 2025 14:52:05 +0000</lastBuildDate><managingEditor>存一些没用的东西</managingEditor><ttl>60</ttl><webMaster>存一些没用的东西</webMaster><item><title>Ubuntu16.04安装Kubernetes</title><link>https://UnderTaker323.github.io/post/Ubuntu16.04-an-zhuang-Kubernetes.html</link><description>**先安装docker**
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>存一些没用的东西</title><link>https://UnderTaker323.github.io</link><description>感觉有点用的东西</description><copyright>存一些没用的东西</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/162246850?v=4</url><title>avatar</title><link>https://UnderTaker323.github.io</link></image><lastBuildDate>Mon, 09 Jun 2025 14:53:17 +0000</lastBuildDate><managingEditor>存一些没用的东西</managingEditor><ttl>60</ttl><webMaster>存一些没用的东西</webMaster><item><title>Ubuntu16.04增加网关</title><link>https://UnderTaker323.github.io/post/Ubuntu16.04-zeng-jia-wang-guan.html</link><description>临时增加网关
+```
+route add default gw x.x.x.x
+```
+
+**x.x.x.x是网关的IP地址**。</description><guid isPermaLink="true">https://UnderTaker323.github.io/post/Ubuntu16.04-zeng-jia-wang-guan.html</guid><pubDate>Mon, 09 Jun 2025 14:52:47 +0000</pubDate></item><item><title>Ubuntu16.04安装Kubernetes</title><link>https://UnderTaker323.github.io/post/Ubuntu16.04-an-zhuang-Kubernetes.html</link><description>**先安装docker**
 
 两张网卡
 
