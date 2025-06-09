@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>存一些没用的东西</title><link>https://UnderTaker323.github.io</link><description>感觉有点用的东西</description><copyright>存一些没用的东西</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/162246850?v=4</url><title>avatar</title><link>https://UnderTaker323.github.io</link></image><lastBuildDate>Mon, 09 Jun 2025 14:48:55 +0000</lastBuildDate><managingEditor>存一些没用的东西</managingEditor><ttl>60</ttl><webMaster>存一些没用的东西</webMaster><item><title>Ubuntu16.04安装Kubernetes</title><link>https://UnderTaker323.github.io/post/Ubuntu16.04-an-zhuang-Kubernetes.html</link><description>**先安装docker**
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>存一些没用的东西</title><link>https://UnderTaker323.github.io</link><description>感觉有点用的东西</description><copyright>存一些没用的东西</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/162246850?v=4</url><title>avatar</title><link>https://UnderTaker323.github.io</link></image><lastBuildDate>Mon, 09 Jun 2025 14:50:01 +0000</lastBuildDate><managingEditor>存一些没用的东西</managingEditor><ttl>60</ttl><webMaster>存一些没用的东西</webMaster><item><title>Ubuntu16.04安装Kubernetes</title><link>https://UnderTaker323.github.io/post/Ubuntu16.04-an-zhuang-Kubernetes.html</link><description>**先安装docker**
 
 两张网卡
 
@@ -248,7 +248,9 @@ usermod -aG docker $USER
 
 *默认情况下，只有root用户和docker组的用户才能运行Docker命令。</description><guid isPermaLink="true">https://UnderTaker323.github.io/post/zai-Ubuntu-zhong-an-zhuang-Docker.html</guid><pubDate>Mon, 09 Jun 2025 14:47:46 +0000</pubDate></item><item><title>虚拟机Ubuntu开机后提示：无法应用源保存的显示器配置</title><link>https://UnderTaker323.github.io/post/xu-ni-ji-Ubuntu-kai-ji-hou-ti-shi-%EF%BC%9A-wu-fa-ying-yong-yuan-bao-cun-de-xian-shi-qi-pei-zhi.html</link><description>### 解决办法:
 终端输入
-&gt;rm .config/monitors.xml
+```
+rm .config/monitors.xml
+```
 
 重启后解决问题。</description><guid isPermaLink="true">https://UnderTaker323.github.io/post/xu-ni-ji-Ubuntu-kai-ji-hou-ti-shi-%EF%BC%9A-wu-fa-ying-yong-yuan-bao-cun-de-xian-shi-qi-pei-zhi.html</guid><pubDate>Mon, 09 Jun 2025 14:47:01 +0000</pubDate></item><item><title>Linux中安装并开启ssh服务</title><link>https://UnderTaker323.github.io/post/Linux-zhong-an-zhuang-bing-kai-qi-ssh-fu-wu.html</link><description>### Ubuntu
 更新下载源
