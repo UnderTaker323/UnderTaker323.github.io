@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>存一些没用的东西</title><link>https://UnderTaker323.github.io</link><description>感觉有点用的东西</description><copyright>存一些没用的东西</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/162246850?v=4</url><title>avatar</title><link>https://UnderTaker323.github.io</link></image><lastBuildDate>Mon, 09 Jun 2025 14:50:01 +0000</lastBuildDate><managingEditor>存一些没用的东西</managingEditor><ttl>60</ttl><webMaster>存一些没用的东西</webMaster><item><title>Ubuntu16.04安装Kubernetes</title><link>https://UnderTaker323.github.io/post/Ubuntu16.04-an-zhuang-Kubernetes.html</link><description>**先安装docker**
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>存一些没用的东西</title><link>https://UnderTaker323.github.io</link><description>感觉有点用的东西</description><copyright>存一些没用的东西</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/162246850?v=4</url><title>avatar</title><link>https://UnderTaker323.github.io</link></image><lastBuildDate>Mon, 09 Jun 2025 14:52:05 +0000</lastBuildDate><managingEditor>存一些没用的东西</managingEditor><ttl>60</ttl><webMaster>存一些没用的东西</webMaster><item><title>Ubuntu16.04安装Kubernetes</title><link>https://UnderTaker323.github.io/post/Ubuntu16.04-an-zhuang-Kubernetes.html</link><description>**先安装docker**
 
 两张网卡
 
@@ -254,41 +254,62 @@ rm .config/monitors.xml
 
 重启后解决问题。</description><guid isPermaLink="true">https://UnderTaker323.github.io/post/xu-ni-ji-Ubuntu-kai-ji-hou-ti-shi-%EF%BC%9A-wu-fa-ying-yong-yuan-bao-cun-de-xian-shi-qi-pei-zhi.html</guid><pubDate>Mon, 09 Jun 2025 14:47:01 +0000</pubDate></item><item><title>Linux中安装并开启ssh服务</title><link>https://UnderTaker323.github.io/post/Linux-zhong-an-zhuang-bing-kai-qi-ssh-fu-wu.html</link><description>### Ubuntu
 更新下载源
-&gt;sudo apt update
+```
+sudo apt update
+```
 
 安装ssh服务
-&gt;sudo apt install openssh-server
+```
+sudo apt install openssh-server
+```
 
 修改ssh登录配置
-&gt;sudo vim /etc/ssh/sshd_config
-
+```
+sudo vim /etc/ssh/sshd_config
+```
 - 将`Port 22`前面的`#`删除 
 - 将`PermitRootLogin `后面修改为`yes`
 
 开启ssh防火墙服务端口
-&gt;sudo ufw allow ssh
+```
+sudo ufw allow ssh
+```
 
 开启ssh服务
-&gt;systemctl start ssh
+```
+systemctl start ssh
+```
 
 开启ssh服务
-&gt;systemctl stop ssh
+```
+systemctl stop ssh
+```
 
 查看ssh服务状态
-&gt;systemctl status ssh
+```
+systemctl status ssh
+```
 
 设置开机自启动
-&gt;systemctl enable ssh
+```
+systemctl enable ssh
+```
 
 关闭开机自启动
-&gt;systemctl disable ssh
+```
+systemctl disable ssh
+```
 
 ### Centos
 查看是否已经安装ssh
-&gt;rpm -qa | grep -E 'openssh'
+```
+rpm -qa | grep -E 'openssh'
+```
 
 或者
-&gt;yum list installed | grep openssh
+```
+yum list installed | grep openssh
+```
 
 若已经安装则会输出相应信息
 &gt;openssh-7.4p1-11.el7.x86_64
@@ -296,13 +317,17 @@ openssh-server-7.4p1-11.el7.x86_64
 openssh-clients-7.4p1-11.el7.x86_64
 
 若未安装测开始安装ssh
-&gt;yum install openssh-server -y
+```
+yum install openssh-server -y
+```
 
 **-y表示安装过程中自动提示选择全部选择y*
 
 安装完成后
 修改ssh文件配置
-&gt;vim /etc/ssh/sshd_config
+```
+vim /etc/ssh/sshd_config
+```
 
 - 将`Port 22`前面的`#`删除 
 - 将`PermitRootLogin prohibit-password`后面修改为`yes`
@@ -311,14 +336,19 @@ openssh-clients-7.4p1-11.el7.x86_64
 - 将`ListenAddress ::`前面的`#`删除 
 
 修改后重启ssh服务
-&gt;systemctl restart sshd
+```
+systemctl restart sshd
+```
 
 查看sshd是否运行，有结果输出则显示运行正常
-&gt;ps -e | grep sshd 
-
+```
+ps -e | grep sshd 
+```
 如果无法连接登录，查看端口是否开放：
-&gt;firewall-cmd --zone=public --add-port=22/tcp --permanent 
-service firewalld restart。</description><guid isPermaLink="true">https://UnderTaker323.github.io/post/Linux-zhong-an-zhuang-bing-kai-qi-ssh-fu-wu.html</guid><pubDate>Mon, 09 Jun 2025 14:43:06 +0000</pubDate></item><item><title>官宣文案</title><link>https://UnderTaker323.github.io/post/guan-xuan-wen-an.html</link><description>夏天有着迟暮的霞光 正如晚来的你皆是笑意
+```
+firewall-cmd --zone=public --add-port=22/tcp --permanent 
+service firewalld restart
+```。</description><guid isPermaLink="true">https://UnderTaker323.github.io/post/Linux-zhong-an-zhuang-bing-kai-qi-ssh-fu-wu.html</guid><pubDate>Mon, 09 Jun 2025 14:43:06 +0000</pubDate></item><item><title>官宣文案</title><link>https://UnderTaker323.github.io/post/guan-xuan-wen-an.html</link><description>夏天有着迟暮的霞光 正如晚来的你皆是笑意
 
 如果你够及时 能赶上这个冬天 与我一起吃火锅喝奶茶看电影放烟花合照秀恩爱 那么这个冬天一定很美好
 如果你这个冬天不来 那我就买长一点的衣服 把手塞到袖子里 等到来年你一定要牵起我冷了一个冬天的手
