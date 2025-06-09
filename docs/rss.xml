@@ -1,5 +1,45 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>存一些没用的东西</title><link>https://UnderTaker323.github.io</link><description>感觉有点用的东西</description><copyright>存一些没用的东西</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/162246850?v=4</url><title>avatar</title><link>https://UnderTaker323.github.io</link></image><lastBuildDate>Mon, 09 Jun 2025 14:47:27 +0000</lastBuildDate><managingEditor>存一些没用的东西</managingEditor><ttl>60</ttl><webMaster>存一些没用的东西</webMaster><item><title>虚拟机Ubuntu开机后提示：无法应用源保存的显示器配置</title><link>https://UnderTaker323.github.io/post/xu-ni-ji-Ubuntu-kai-ji-hou-ti-shi-%EF%BC%9A-wu-fa-ying-yong-yuan-bao-cun-de-xian-shi-qi-pei-zhi.html</link><description>### 解决办法:
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>存一些没用的东西</title><link>https://UnderTaker323.github.io</link><description>感觉有点用的东西</description><copyright>存一些没用的东西</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/162246850?v=4</url><title>avatar</title><link>https://UnderTaker323.github.io</link></image><lastBuildDate>Mon, 09 Jun 2025 14:48:15 +0000</lastBuildDate><managingEditor>存一些没用的东西</managingEditor><ttl>60</ttl><webMaster>存一些没用的东西</webMaster><item><title>在Ubuntu中安装Docker</title><link>https://UnderTaker323.github.io/post/zai-Ubuntu-zhong-an-zhuang-Docker.html</link><description>卸载老版本Docker
+```
+apt-get remove docker docker-engine docker.io containerd runc
+```
+
+更新下载源
+```
+apt update
+```
+
+安装更新软件包
+```
+apt upgrade
+```
+
+安装docker依赖
+```
+apt-get install ca-certificates curl gnupg lsb-release
+```
+
+添加Docker官方GPG密钥
+```
+curl -fsSL http://mirrors.aliyun.com/docker-ce/linux/ubuntu/gpg | sudo apt-key add -
+```
+
+更新docker软件源
+```
+add-apt-repository 'deb [arch=amd64] http://mirrors.aliyun.com/docker-ce/linux/ubuntu $(lsb_release -cs) stable'
+```
+
+安装Docker
+```
+apt-get install docker-ce docker-ce-cli containerd.io
+```
+
+配置用户组（选择配置）
+```
+usermod -aG docker $USER
+```
+
+*默认情况下，只有root用户和docker组的用户才能运行Docker命令。</description><guid isPermaLink="true">https://UnderTaker323.github.io/post/zai-Ubuntu-zhong-an-zhuang-Docker.html</guid><pubDate>Mon, 09 Jun 2025 14:47:46 +0000</pubDate></item><item><title>虚拟机Ubuntu开机后提示：无法应用源保存的显示器配置</title><link>https://UnderTaker323.github.io/post/xu-ni-ji-Ubuntu-kai-ji-hou-ti-shi-%EF%BC%9A-wu-fa-ying-yong-yuan-bao-cun-de-xian-shi-qi-pei-zhi.html</link><description>### 解决办法:
 终端输入
 &gt;rm .config/monitors.xml
 
