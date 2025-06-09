@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>存一些没用的东西</title><link>https://UnderTaker323.github.io</link><description>感觉有点用的东西</description><copyright>存一些没用的东西</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/162246850?v=4</url><title>avatar</title><link>https://UnderTaker323.github.io</link></image><lastBuildDate>Mon, 09 Jun 2025 15:00:50 +0000</lastBuildDate><managingEditor>存一些没用的东西</managingEditor><ttl>60</ttl><webMaster>存一些没用的东西</webMaster><item><title>Docker更换镜像源（2025.2可用版）</title><link>https://UnderTaker323.github.io/post/Docker-geng-huan-jing-xiang-yuan-%EF%BC%882025.2-ke-yong-ban-%EF%BC%89.html</link><description>创建目录（已有则忽略）
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>存一些没用的东西</title><link>https://UnderTaker323.github.io</link><description>感觉有点用的东西</description><copyright>存一些没用的东西</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/162246850?v=4</url><title>avatar</title><link>https://UnderTaker323.github.io</link></image><lastBuildDate>Mon, 09 Jun 2025 16:12:22 +0000</lastBuildDate><managingEditor>存一些没用的东西</managingEditor><ttl>60</ttl><webMaster>存一些没用的东西</webMaster><item><title>Docker更换镜像源（2025.2可用版）</title><link>https://UnderTaker323.github.io/post/Docker-geng-huan-jing-xiang-yuan-%EF%BC%882025.2-ke-yong-ban-%EF%BC%89.html</link><description>创建目录（已有则忽略）
 ```
 mkdir -p /etc/docker
 ```
@@ -31,7 +31,10 @@ systemctl daemon-reload
 ```
 ```
 systemctl restart docker
-```。</description><guid isPermaLink="true">https://UnderTaker323.github.io/post/Docker-geng-huan-jing-xiang-yuan-%EF%BC%882025.2-ke-yong-ban-%EF%BC%89.html</guid><pubDate>Mon, 09 Jun 2025 15:00:18 +0000</pubDate></item><item><title>Ubuntu中修改root账户颜色</title><link>https://UnderTaker323.github.io/post/Ubuntu-zhong-xiu-gai-root-zhang-hu-yan-se.html</link><description>
+```。</description><guid isPermaLink="true">https://UnderTaker323.github.io/post/Docker-geng-huan-jing-xiang-yuan-%EF%BC%882025.2-ke-yong-ban-%EF%BC%89.html</guid><pubDate>Mon, 09 Jun 2025 15:00:18 +0000</pubDate></item><item><title>VSCode中部分ssh无法连接</title><link>https://UnderTaker323.github.io/post/VSCode-zhong-bu-fen-ssh-wu-fa-lian-jie.html</link><description>更新known_hosts文件：
+&gt;C:\Users\Lenovo\.ssh\known_hosts
+
+删除相关ip地址的内容保存后重启。</description><guid isPermaLink="true">https://UnderTaker323.github.io/post/VSCode-zhong-bu-fen-ssh-wu-fa-lian-jie.html</guid><pubDate>Mon, 09 Jun 2025 14:59:49 +0000</pubDate></item><item><title>Ubuntu中修改root账户颜色</title><link>https://UnderTaker323.github.io/post/Ubuntu-zhong-xiu-gai-root-zhang-hu-yan-se.html</link><description>
 root账户下编辑/etc/bash.bashrc文件
 ```
 vim /etc/bash.bashrc
@@ -46,7 +49,10 @@ source /etc/bash.bashrc
 ```
 
 
-。</description><guid isPermaLink="true">https://UnderTaker323.github.io/post/Ubuntu-zhong-xiu-gai-root-zhang-hu-yan-se.html</guid><pubDate>Mon, 09 Jun 2025 14:59:21 +0000</pubDate></item><item><title>Kubernetes启动</title><link>https://UnderTaker323.github.io/post/Kubernetes-qi-dong.html</link><description>禁用交换空间
+。</description><guid isPermaLink="true">https://UnderTaker323.github.io/post/Ubuntu-zhong-xiu-gai-root-zhang-hu-yan-se.html</guid><pubDate>Mon, 09 Jun 2025 14:59:21 +0000</pubDate></item><item><title>在Ubuntu中开启ipv4转发</title><link>https://UnderTaker323.github.io/post/zai-Ubuntu-zhong-kai-qi-ipv4-zhuan-fa.html</link><description>永久开启
+```
+echo 'net.ipv4.ip_forward = 1' | sudo tee -a /etc/sysctl.conf &amp;&amp; sudo sysctl -p
+```。</description><guid isPermaLink="true">https://UnderTaker323.github.io/post/zai-Ubuntu-zhong-kai-qi-ipv4-zhuan-fa.html</guid><pubDate>Mon, 09 Jun 2025 14:53:40 +0000</pubDate></item><item><title>Kubernetes启动</title><link>https://UnderTaker323.github.io/post/Kubernetes-qi-dong.html</link><description>禁用交换空间
 ***master和slave都需要执行***
 ```
 swapoff -a
