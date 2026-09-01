@@ -134,3 +134,77 @@ Severed Steel 断钢
 Mortal Shell 致命躯壳 2
 《Dishonored》Definitive Edition 耻辱
 Eximius: Seize the Frontline 
+Shadow Tactics - Aiko's Choice 影子战术：爱子的选择
+Kerbal Space Program 坎巴拉太空计划
+Gamedec 骇游侠探
+First Class Trouble 头等舱故障
+Epistory - Typing Chronicles 纸境奇缘
+Hell is Others 他人即地狱
+Adios 
+Dishonored®: Death of the Outsider™ 耻辱：界外魔之死
+City of Gangsters 黑帮之城
+Recipe for Disaster 厨师长模拟器
+Warpips 小兵大战
+Duskers 宇宙黄昏
+Rise of Industry 工业崛起
+Call of the Sea 海之呼唤
+Warhammer 40,000: Gladius - Relics of War 战锤40k：格雷迪厄斯-遗迹之战
+Chess Ultra 终极象棋
+《战舰世界》新手包：Ishizuchi
+The Silent Age 沉默年代
+Tunche 密林传奇
+Shapez 异性工厂
+《消逝的光芒：增强版》
+MORDHAU 雷霆一击
+Beyond Blue 深海超越
+Poker Club 扑克俱乐部
+Breathedge 呼吸边缘
+Kao the Kangaroo 袋鼠闯天关
+《Fallout: New Vegas》终极版 辐射：新维加斯
+午夜猎魂
+PAYDAY 2 收获日2
+Guacamelee! 2 墨西哥英雄大混战2
+Guacamelee! Super Turbo Championship Edition 墨西哥英雄大混战：超级漩涡冠军版
+The Dungeon of Naheulbeuk 拿赫鲁博王地下城：混沌护符
+GRIME 尘埃异变
+Train Valley 2 火车山谷2
+The Elder Scrolls Online 上古卷轴Online
+Murder by Numbers 数字谋杀
+Homeworld Remastered Collection 家园：高清重制合集
+Orwell: Keeping an Eye on You 奥威尔：注视着你
+Dodo Peak 
+Black Book 黑书
+Homeworld: Deserts of Kharak 家园：卡拉克沙漠
+Cave Story+ 洞窟物语
+911 Operator 911接线员
+Out of Line 边界之外
+The Forest Quartet 森林四重奏
+Model Builder 
+Soulstice 
+Godlike Burger 宇宙汉堡王
+Blazing Sails 炽热的帆：海盗之战
+Q.U.B.E. ULTIMATE BUNDLE
+Eternal Threads 无穷时线
+The Evil Within 恶灵附身
+The Evil Within 2 恶灵附身2 
+Tandem: A Tale of Shadows 艾玛和泰迪熊：影子历险记
+Turnip Boy Commits Tax Evasion 大头菜小子避税记
+Golden Light 
+EARTHLOCK 沉睡大地
+Surviving the Aftermath 劫后余生
+Jitsu Squad 
+Mighty Fight Federation
+GigaBash 巨击大乱斗
+Predecessor 先驱
+命运 2：传承收藏（2023）
+Spelldrifter
+Melvor Idle 梅尔沃放置
+《art of rally》 Standard Edition 拉力赛艺术
+Ghostwire: Tokyo 幽灵线：东京
+《The Outer Worlds》Spacer’s Choice Edition 天外世界：太空人之选
+Human Resource Machine 程序员升职记
+Cursed to Golf 诅咒高尔夫
+Cat Quest喵咪斗恶龙
+Snakebird Complete 
+Saints Row 黑道圣徒
+Ghostrunner  幽灵行者
